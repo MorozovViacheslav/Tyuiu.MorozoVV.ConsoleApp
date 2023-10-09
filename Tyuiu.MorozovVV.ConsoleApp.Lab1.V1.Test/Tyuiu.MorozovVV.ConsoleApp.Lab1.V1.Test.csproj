@@ -8,8 +8,8 @@
     <ProjectGuid>{AD67EF49-478C-43DA-A2B0-9CD70EA931BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.PenkovEU.ConsoleApp.Lab1.V1.Test</RootNamespace>
-    <AssemblyName>Tyuiu.PenkovEU.ConsoleApp.Lab1.V1.Test</AssemblyName>
+    <RootNamespace>Tyuiu.MorozovVV.ConsoleApp.Lab1.V1.Test</RootNamespace>
+    <AssemblyName>Tyuiu.MorozovVV.ConsoleApp.Lab1.V1.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

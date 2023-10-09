@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1188D4A5-EED4-48F4-82DF-259E354B7CA3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.PenkovEU.ConsoleApp.Lab2.V5</RootNamespace>
-    <AssemblyName>Tyuiu.PenkovEU.ConsoleApp.Lab2.V5</AssemblyName>
+    <RootNamespace>Tyuiu.MorozovVV.ConsoleApp.Lab2.V5</RootNamespace>
+    <AssemblyName>Tyuiu.MorozovVV.ConsoleApp.Lab2.V5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
