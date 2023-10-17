@@ -11,16 +11,16 @@ namespace Tyuiu.MorozovVV.ConsoleApp.Lab0.V0
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Введите значение переменной K");
             int k = Convert.ToInt32(Console.ReadLine());
-            
+
             Console.WriteLine("Введите значение переменной W");
             int w = Convert.ToInt32(Console.ReadLine());
 
             DataService solve = new DataService();
 
-            var result = solve.Add (k, w);
+            var result = solve.Add(k, w);
 
             Console.WriteLine("Сумма K + W = " + result);
 
@@ -36,7 +36,60 @@ namespace Tyuiu.MorozovVV.ConsoleApp.Lab0.V0
 
             Console.WriteLine("Отношение K / W = " + result3);
 
-            Console.ReadKey();
+            if (result > 0)
+            {
+                Console.WriteLine("Сумма " + result + " положительная");
+            }
+            else if (result < 0)
+            {
+                Console.WriteLine("Сумма " + result + " отрицательная");
+            }
+            else if (result == 0)
+            {
+                Console.WriteLine("Сумма " + result + " равна нулю");
+            }
+
+            //int x = 1;
+            //int y = 1; 
+            
+            //if (x>0 && y>0 )
+            //{
+            //    Console.WriteLine("Точка в ПЕРВОЙ четверти " );
+            //}
+
+            //else if (x < 0 && y > 0)
+            //{
+            //    Console.WriteLine("Точка во ВТОРОЙ четверти ");
+            //}
+
+            //else if (x < 0 && y < 0)
+            //{
+            //    Console.WriteLine("Точка в ТРЕТЬЕЙ четверти ");
+            //}
+
+            //else if (x > 0 && y < 0)
+            //{
+            //    Console.WriteLine("Точка в ЧЕТВЁРТОЙ четверти ");
+            //}
+
+            //else if (x == 0 && y!=0)
+            //{
+            //    Console.WriteLine("Точка лежит на оси ОРДИНАТ ");
+            //}
+
+            //else if (x != 0 && y == 0)
+            //{
+            //    Console.WriteLine("Точка лежит на оси АБЦИСС ");
+            //}
+
+            //else if (x == 0 && y == 0)
+            //{
+            //    Console.WriteLine("Точка является началом координат ");
+            //}
+
+            //Console.ReadKey();
+
+
 
         }
     }
