@@ -71,7 +71,7 @@ namespace Tyuiu.MorozovVV.ConsoleApp.Lab1.V1.Test
             result = Math.Round(result, 12);
             double wait = 84.634479717813;
 
-            Assert.AreEqual(result, wait);
+            Assert.AreEqual(wait, result);
 
         }
     }

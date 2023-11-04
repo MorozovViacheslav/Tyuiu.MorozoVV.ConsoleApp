@@ -19,7 +19,7 @@ namespace Tyuiu.MorozovVV.ConsoleApp.Lab2.V3.Test
             result = Math.Round(result, 15);
             double wait = 0.642908201949371;
 
-            Assert.AreEqual(result, wait);
+            Assert.AreEqual(wait, result);
         }
 
         [TestMethod]
@@ -34,7 +34,7 @@ namespace Tyuiu.MorozovVV.ConsoleApp.Lab2.V3.Test
             result = Math.Round(result, 14);
             double wait = 1.18469833596795;
 
-            Assert.AreEqual(result, wait);
+            Assert.AreEqual(wait, result);
         }
     }
 }
